@@ -38,7 +38,7 @@ colorama==0.4.6
     #   log-symbols
 coverage==7.13.4
     # via gdc-mutation-indexer (pyproject.toml)
-deepdiff==8.6.1
+deepdiff==8.6.2
     # via
     #   gdc-mutation-indexer (pyproject.toml)
     #   gdcmodels
