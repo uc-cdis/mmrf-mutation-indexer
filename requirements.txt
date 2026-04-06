@@ -136,7 +136,7 @@ python-json-logger==3.3.0
     # via gdc-mutation-indexer (pyproject.toml)
 pyyaml==6.0.2
     # via gdcmodels
-requests==2.32.4
+requests==2.33.0
     # via indexclient
 s3transfer==0.13.0
     # via boto3
