@@ -121,7 +121,7 @@ class BaseBuilder(abc.ABC):
             "es.net.ssl", self.config.es_use_ssl
         ).option(
             "es.net.ssl.cert.allow.self.signed", self.config.disable_es_verify_certs
-        ).option("es.nodes.wan.only", "true").option(
+        ).option("es.nodes.wan.only", "false").option(
             "es.nodes.resolve.hostname", "false"
         ).option("es.resource.write", index).option("es.http.timeout", "1h").option(
             "es.http.retries", "-1"
